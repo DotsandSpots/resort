@@ -1,0 +1,130 @@
+:root{
+    
+    --cream: #EEF2F0;
+    --dk-blue: #64A0A9; 
+    --med-blue: #58B6C0;
+    --lt-blue: #78BDC1;
+
+    
+    --white: #fff;
+    --lt-gray: #eaeaea;
+    --med-gray: #555;
+    --dk-gray: #222;
+
+    
+    --filter-shadow-sm: drop-shadow(-3px 3px 7px var(--med-gray));
+    --filter-shadow-lg: drop-shadow(-6px 6px 10px var(--med-gray));
+
+    
+    --fonts: "halogen-flare", Tahoma, sans-serif;
+}
+
+body {
+    background: lightblue;
+    color: var(--dk-gray);
+    line-height: 1.5;
+    font-family: var(--fonts), halogen-flare;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+}
+
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position:relative;
+}
+
+
+.header {
+    text-align: center;
+    background-color: #fff; 
+    padding: 20px; 
+}
+
+.header h1 {
+    font-size: 36px; 
+    color: #333; 
+}
+
+nav {
+    margin-top: 20px; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px; 
+}
+
+nav ul li:last-child {
+    margin-right: 0; 
+}
+
+.content-group1 {
+    text-align: center;
+    padding: 40px; 
+}
+
+.content-group1 h2 {
+    font-size: 28px; 
+    color: #333; 
+}
+
+.content-group1 p {
+    font-size: 16px; 
+    color: #666; 
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  form input, form label, form textarea, form input[type=submit] {
+    display: block;
+    font-family: "halogen-flare";
+    font-weight: normal;
+    font-size: 1.1rem;
+  }
+
+.flex-container {
+    display: flex;
+}
+
+.image{
+   margin-top: 20px;
+   margin-left: 30px; 
+}
+/* TO DO */
+
+address {
+    font-style: normal;
+    margin: 1rem 0;
+}
+/* TO DO */
+
+address a {
+    padding: 0.25rem 0;
+}
+/* TO DO */
+
+#questions div img{
+    margin: 1rem auto;
+}
+    /* TO DO */
+
+
+footer {
+    text-align: center;
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px 0; 
+}
